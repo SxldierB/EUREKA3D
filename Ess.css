@@ -1,0 +1,59 @@
+body {
+  margin: 10;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #11008C;
+  color: #fff;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px; /* Puedes ajustar la altura según tus necesidades */
+  width: 100%; /* Esto hará que el encabezado ocupe todo el ancho de su contenedor */
+}
+
+
+.logo img {
+  height: 50px; /* Ajustar tamaño según necesidad */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700; /* Cambiar color al pasar el mouse */
+}
+
+
+    .search-bar input[type="text"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      width: 200px;
+    }
+    
+    .search-bar button {
+      padding: 12px 12px;
+      background-color: #900002;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
